@@ -1,0 +1,99 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after {
+   content: "";
+   display: block;
+   clear: both;
+}
+main{
+	width: 960px;
+	margin: 50px auto;
+}
+.box{
+	width: 300px;
+	float: left;
+	margin-right: 30px;
+	border: 1px solid #eee;
+	position: relative;
+}
+.box:nth-child(3){
+    margin-right: 0;
+}
+.box-image1{
+	margin: 10px 10px auto;
+	height: 160px;
+	background-image: url(img/flow01.png);
+	background-size: cover;
+	background-position: center;
+}
+.box-icon1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #ff9a4b;
+	color: #fff;
+	padding: 3px;
+}
+.title1{
+	font-size: 20px;
+	padding: 10px;
+	color: #6f6f6f;
+}
+.text1{
+	font-size: 15px;
+	padding: 0 10px 10px;
+	color: #6f6f6f;
+}
+.box-image2{
+	margin: 10px 10px auto;
+	height: 160px;
+	background-image: url(img/flow02.png);
+	background-size: cover;
+	background-position: center;
+}
+.box-icon2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #ff9a4b;
+	color: #fff;
+	padding: 3px;
+}
+.title2{
+	font-size: 20px;
+	padding: 10px;
+	color: #6f6f6f;
+}
+.text2{
+	font-size: 15px;
+	padding: 0 10px 10px;
+	color: #6f6f6f;
+}
+.box-image3{
+	margin: 10px 10px auto;
+	height: 160px;
+	background-image: url(img/flow03.png);
+	background-size: cover;
+	background-position: center;
+}
+.box-icon3{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #ff9a4b;
+	color: #fff;
+	padding: 3px;
+}.title3{
+	font-size: 20px;
+	padding: 10px;
+	color: #6f6f6f;
+}
+.text3{
+	font-size: 15px;
+	padding: 0 10px 10px;
+	color: #6f6f6f;
+}
